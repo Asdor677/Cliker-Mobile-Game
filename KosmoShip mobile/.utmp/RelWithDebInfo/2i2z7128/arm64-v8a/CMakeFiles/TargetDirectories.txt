@@ -1,0 +1,5 @@
+A:/IT/KosmoShip mobile/.utmp/RelWithDebInfo/2i2z7128/arm64-v8a/CMakeFiles/edit_cache.dir
+A:/IT/KosmoShip mobile/.utmp/RelWithDebInfo/2i2z7128/arm64-v8a/CMakeFiles/rebuild_cache.dir
+A:/IT/KosmoShip mobile/.utmp/RelWithDebInfo/2i2z7128/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+A:/IT/KosmoShip mobile/.utmp/RelWithDebInfo/2i2z7128/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+A:/IT/KosmoShip mobile/.utmp/RelWithDebInfo/2i2z7128/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
