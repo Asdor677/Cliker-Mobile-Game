@@ -1,0 +1,5 @@
+A:/IT/Cliker mobile/.utmp/RelWithDebInfo/5m6p483g/arm64-v8a/CMakeFiles/edit_cache.dir
+A:/IT/Cliker mobile/.utmp/RelWithDebInfo/5m6p483g/arm64-v8a/CMakeFiles/rebuild_cache.dir
+A:/IT/Cliker mobile/.utmp/RelWithDebInfo/5m6p483g/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+A:/IT/Cliker mobile/.utmp/RelWithDebInfo/5m6p483g/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+A:/IT/Cliker mobile/.utmp/RelWithDebInfo/5m6p483g/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
