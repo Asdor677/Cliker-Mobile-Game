@@ -1,4 +1,4 @@
-# KosmoShipGame
+# Cliker-Mobile-Game
 My project for Jobs
 Unity version: 2023.1.15f1
 Date: 12.19.2023
