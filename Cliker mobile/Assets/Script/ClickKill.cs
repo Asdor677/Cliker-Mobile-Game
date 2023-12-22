@@ -1,4 +1,5 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -7,7 +8,6 @@ public class ClickKill: MonoBehaviour, IPointerClickHandler
 {
     public int _HealfMax = 20;
     private Animator _anims;
-    private float _ToClick;
     public GameObject _Boss;
     public GameObject _BossNew;
 
@@ -17,7 +17,7 @@ public class ClickKill: MonoBehaviour, IPointerClickHandler
     public TextMeshProUGUI _HPText;
     public float _Damage;
 
-    private int _Pain;
+    public static int _Pain;
 
     void Start()
     {
@@ -26,18 +26,18 @@ public class ClickKill: MonoBehaviour, IPointerClickHandler
     }
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0)) { _anims.SetFloat("Pain", _Pain = 1); Debug.Log("Here 1"); }
-        if (Input.GetMouseButtonDown(0)) { _anims.SetFloat("Pain", _Pain = 0); Debug.Log("Here 0"); }
+        if (Input.GetMouseButtonDown(0)) { _anims.SetFloat("Pain", _Pain = 1);}
+        if (Input.GetMouseButtonDown(0)) { _anims.SetFloat("Pain", _Pain = 0);}
     }
     public void OnPointerClick(PointerEventData eventData)
     {
         do
         {
-            Debug.Log($"Click, {_HealfMax}");
             _HealfMax--;
             _HPText.text = _HealfMax.ToString($"{_HealfMax}");
             HP -= _Damage; Bar.fillAmount = HP / 100;
-            _anims.SetFloat("Pain", _Pain = 1); Debug.Log("Here 1");
+            _anims.SetFloat("Pain", _Pain = 1);
+            CoinSystem._coinsInt += 1;
             if ( _HealfMax == 0) { _Boss.SetActive(false); _BossNew.SetActive(true);}
         }
         while (_HealfMax == 0);

@@ -8,7 +8,7 @@ public class EscMenu : MonoBehaviour
     public GameObject _LeftMenu;
     public GameObject _More;
     public GameObject _Pause;
-    public GameObject _Mine;
+    public GameObject _Paper;
     public GameObject _Setting;
     private void Update()
     {
@@ -18,7 +18,7 @@ public class EscMenu : MonoBehaviour
             _LeftMenu.SetActive(false);
             _Pause.SetActive(!_Pause.activeSelf);
             _More.SetActive(!_More.activeSelf);
-            _Mine.SetActive(false);
+            _Paper.SetActive(false);
             _Setting.SetActive(false);
         }
     }
